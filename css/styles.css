@@ -17,6 +17,8 @@ body{
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 img {
     display: block;
@@ -48,13 +50,15 @@ img {
 }
 .list{
     list-style: none;
+
 }
 
 .colored-studio{
     color: var(--navy-blye-color);
 }
 .contact{
-    font-style: normal
+    font-style: normal;
+    margin-left: auto;
 }
 .nav-list{
     display: flex;
@@ -91,7 +95,7 @@ img {
     background-color:var(--navy-blye-color);
     padding-top: 188px;
     padding-bottom: 188px;
-  
+    
 }
 .heading{
     font-size: 56px;
@@ -100,6 +104,8 @@ img {
     letter-spacing: 0.02em;
     color:var(--white-color);
     max-width: 496px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-one{
     background-color: var(--iris-color);
@@ -116,6 +122,8 @@ img {
     border: none;
     background-color: #4d5ae5; 
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button-one:hover, .button-one:focus{
     background-color: var(--ocean-color) 
@@ -139,6 +147,8 @@ img {
 .sc-two-ul{
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 .sc-two-lists{
     width: calc((100% - 3 * 24px) / 4);
@@ -175,9 +185,11 @@ img {
 .sc-three-ul{
     display: flex; 
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 .sc-three-list{
-    width: calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 72px) / 4); 
 }
 .section-four{
     background-color: var(--cloud-color);
@@ -190,10 +202,13 @@ img {
 .sc-four-ul{
     display: flex; 
     gap: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 .list-four{
     background-color: var(--white-color);
-    width: calc((100% - 3 * 24px) / 4);
+
 }
 .sc-four-box{
     padding-top: 32px;
@@ -257,4 +272,13 @@ img {
     color: var(--white-color);
     background-color: var(--ocean-color) ;
     border: 1px solid transparent;
+}
+.catalog-ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px; 
+    row-gap: 48px
+}
+.catalog-list{
+    width: calc((100% - 48px) / 3);
 }
