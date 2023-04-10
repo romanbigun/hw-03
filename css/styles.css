@@ -6,7 +6,7 @@
     --ocean-color:#404bbf;
     --white-color:#fff;
     --cloud-color:#f4f4fd;
-
+    --number-column-strategy: 4; 
 }
 body{
     background-color: var(--white-color);
@@ -89,6 +89,8 @@ img {
 }
 .section-one{
     background-color:var(--navy-blye-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .heading{
     font-size: 56px;
@@ -96,6 +98,7 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--white-color);
+    max-width: 496px; 
 }
 .button-one{
     background-color: var(--iris-color);
@@ -106,12 +109,29 @@ img {
     letter-spacing: 0.04em ;
     color: var(--white-color);
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5; 
+    border-radius: 4px;
 }
 .button-one:hover, .button-one:focus{
     background-color: var(--ocean-color) 
 }
+.section-two{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .hidden{
     visibility : hidden;
+}
+.sc-two-ul{
+    display: flex;
+    gap: 24px;
+}
+.sc-two-lists{
+    width: calc((100% - var(--number-column-strategy)-1 * 24px) / var(--number-column-strategy));
 }
 .title-list{
     font-weight: 500;
@@ -119,6 +139,9 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--navy-blye-color);
+}
+.sc-two-title{
+    margin-bottom: 8px;
 }
 .text-sections{
     font-size: 16px;
