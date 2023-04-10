@@ -6,7 +6,6 @@
     --ocean-color:#404bbf;
     --white-color:#fff;
     --cloud-color:#f4f4fd;
-    --number-column-strategy: 4; 
 }
 body{
     background-color: var(--white-color);
@@ -131,7 +130,7 @@ img {
     gap: 24px;
 }
 .sc-two-lists{
-    width: calc((100% - var(--number-column-strategy)-1 * 24px) / var(--number-column-strategy));
+    width: calc((100% - 3 * 24px) / 4);
 }
 .title-list{
     font-weight: 500;
@@ -148,6 +147,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section-three{
+    padding-bottom: 120px;
+}
 .title-sections{
     font-size: 36px;
     line-height: 1.11;
@@ -156,14 +158,60 @@ img {
     text-transform: capitalize;
     color:var(--navy-blye-color);
 }
+.sc-three-title{
+    margin-bottom: 72px
+}
+.sc-three-ul{
+    display: flex; 
+    gap: 24px;
+}
+.sc-three-list{
+    width: calc((100% - 3 * 16px) / 3);
+}
 .section-four{
     background-color: var(--cloud-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.sc-four-title{
+    margin-bottom: 72px;
+}
+.sc-four-ul{
+    display: flex; 
+    gap: 24px;
 }
 .list-four{
     background-color: var(--white-color);
+    width: calc((100% - 3 * 24px) / 4);
+}
+.sc-four-box{
+    padding-top: 32px;
+    padding-bottom: 32px; 
+    padding-left: 16px; 
+    padding-right: 16px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 4px; 
+    border-bottom-left-radius: 4px;
+}
+.sc-four-name{
+    text-align: center; 
+    margin-bottom: 8px;
+}
+.sc-four-text{
+    text-align: center;
 }
 .foot{
     background-color:var(--navy-blye-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.foot-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.foot-text{
+    max-width: 264px;
 }
 .footer-studio{
     color: var(--cloud-color);
