@@ -50,7 +50,8 @@ img {
 }
 .list{
     list-style: none;
-
+    margin: 0;
+    padding: 0;
 }
 
 .colored-studio{
@@ -63,6 +64,9 @@ img {
 .nav-list{
     display: flex;
     gap: 40px;
+    padding-top: 24px; 
+    padding-bottom: 24px;
+   
 }
 .pages{
     font-weight: 500;
@@ -70,8 +74,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--navy-blye-color);
-    padding-top: 24px; 
-    padding-bottom: 24px;
+
 }
 .contact-ul{
     display: flex;
@@ -237,6 +240,7 @@ img {
 .foot-link{
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 0;
 }
 .foot-text{
     max-width: 264px;
