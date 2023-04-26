@@ -34,6 +34,8 @@ img {
 .head-box{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .navigation{
@@ -49,8 +51,7 @@ img {
     text-transform: uppercase;
     color:var(--iris-color);
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 .link{
     text-decoration: none
@@ -71,8 +72,7 @@ img {
 .nav-list{
     display: flex;
     gap: 40px;
-    padding-top: 24px; 
-    padding-bottom: 24px;
+
    
 }
 .pages{
