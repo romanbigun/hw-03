@@ -49,6 +49,8 @@ img {
     text-transform: uppercase;
     color:var(--iris-color);
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .link{
     text-decoration: none
@@ -208,6 +210,7 @@ img {
     background-color: var(--cloud-color);
     padding-top: 120px;
     padding-bottom: 120px;
+
 }
 .sc-four-title{
     margin-bottom: 72px;
@@ -221,18 +224,19 @@ img {
     padding: 0;
 }
 .list-four{
+    width: calc((100% - 72px) / 4);
     background-color: var(--white-color);
-
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 4px; 
+    border-bottom-left-radius: 4px;
 }
 .sc-four-box{
     padding-top: 32px;
     padding-bottom: 32px; 
     padding-left: 16px; 
     padding-right: 16px;
-    border-top-left-radius: 0px; 
-    border-top-right-radius: 0px; 
-    border-bottom-right-radius: 4px; 
-    border-bottom-left-radius: 4px;
+
 }
 .sc-four-name{
     text-align: center; 
