@@ -14,7 +14,13 @@ body{
     font-family: "Roboto", sans-serif;
     color: var(--slate-color);
 }
-p{
+
+h1,
+h2,
+h3,
+h4,
+p,
+li{
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
@@ -70,7 +76,7 @@ img {
 .nav-list{
     display: flex;
     gap: 40px;
-    padding: 0;
+
    
 }
 .pages{
@@ -92,6 +98,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--slate-color) ;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .color-list{
     color:var(--slate-color) ;
@@ -131,7 +139,7 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5; 
+    background-color: var(--iris-color); 
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
